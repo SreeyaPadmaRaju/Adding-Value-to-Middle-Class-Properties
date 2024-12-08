@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eaf7; /* Soft pastel lavender */
+    background-image: url('https://assets.entrepreneur.com/content/3x2/2000/1691095535-entrepreneur-real-estate-wealth-0823-g912235266.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    background-position: center; /* Centers the image */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #6d6875; /* Soft pastel gray */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Form Box Styling */
+.form-container {
+    border: 2px solid #f3b0c3;  /* Light pastel pink border */
+    padding: 30px;
+    background-color: #fff3f8;  /* Very light pink background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Navigation Menu */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffdae5; /* Soft pastel pink */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.navbar a:hover {
+    background-color: #f3b0c3; /* Pastel pink hover effect */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for uniform input size */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #f7cfe5; /* Pastel pink border */
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px;
+    background-color: #f3b0c3; /* Soft pastel pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #f9cfd9; /* Lighter pastel pink hover effect */
+}
+
+.clear-button {
+    background-color: #f78c7d; /* Pastel coral */
+    margin-left: 10px;
+}
+
+.clear-button:hover {
+    background-color: #f4978e; /* Lighter pastel coral */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #a0c4ff; /* Soft pastel blue */
+}
+
